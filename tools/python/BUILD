@@ -1,14 +1,6 @@
 filegroup(
-    name = "url_playlist",
-    srcs = glob(
-        ["*.txt"],
-    ),
-    visibility = ["//visibility:public"],
-)
-
-filegroup(
-    name = "download_playlist",
-    srcs = ["download_playlist.py"],
+    name = "download_playlist_py",
+    srcs = ["download_playlist_py.py"],
     visibility = ["//visibility:public"],
 )
 
